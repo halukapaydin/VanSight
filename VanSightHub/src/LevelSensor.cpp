@@ -26,19 +26,42 @@ float LevelSensor::readVoltage() {
 }
 
 float LevelSensor::readResistance() {
+    int adcValue = readRaw();
     float voltage = readVoltage();
+    
+    // DEBUG: Print raw values
+    Serial.printf("[Sensor Pin %d] ADC Raw: %d, Voltage: %.3fV, Ref: %.1fΩ\n", 
+                  _pin, adcValue, voltage, _referenceResistor);
     
     // Prevent division by zero
     if (voltage >= SUPPLY_VOLTAGE - 0.01) {
         return _maxResistance;
     }
     
-    // Calculate resistance using voltage divider formula
-    // Vout = Vin * (R_sensor / (R_ref + R_sensor))
-    // Solving for R_sensor:
-    // R_sensor = (Vout * R_ref) / (Vin - Vout)
-    float resistance = (voltage * _referenceResistor) / (SUPPLY_VOLTAGE - voltage);
+    float resistance = 0.0;
     
+    // If no reference resistor (direct potentiometer connection)
+    if (_referenceResistor < 1.0) {
+        // Direct voltage to resistance mapping for potentiometer
+        // Assuming pot is connected: 3.3V -- Pot -- ADC -- GND
+        float ratio = voltage / SUPPLY_VOLTAGE;
+        resistance = ratio * 10000.0; // 10K pot
+        Serial.printf("  -> Direct mode: Raw Resistance = %.1fΩ\n", resistance);
+    } else {
+        // Calculate resistance using voltage divider formula
+        // Vout = Vin * (R_sensor / (R_ref + R_sensor))
+        // Solving for R_sensor:
+        // R_sensor = (Vout * R_ref) / (Vin - Vout)
+        resistance = (voltage * _referenceResistor) / (SUPPLY_VOLTAGE - voltage);
+        Serial.printf("  -> Voltage divider mode: Raw Resistance = %.1fΩ\n", resistance);
+    }
+    
+    // Apply calibration factor to correct for ADC non-linearity and component tolerances
+    // Calibration: Measured 9360Ω when actual is 10000Ω -> factor = 10000/9360 = 1.068
+    const float CALIBRATION_FACTOR = 1.068;
+    resistance = resistance * CALIBRATION_FACTOR;
+    
+    Serial.printf("  -> Calibrated Resistance = %.1fΩ\n", resistance);
     return resistance;
 }
 

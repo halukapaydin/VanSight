@@ -2,13 +2,11 @@
 #define CONFIG_H
 
 // ============================================================================
-// RELAY PIN DEFINITIONS (16 channels)
+// RELAY PIN DEFINITIONS (10 channels)
 // ============================================================================
 const int RELAY_PINS[16] = {
-    13, 12, 14, 27,  // Relays 1-4
-    26, 25, 33, 32,  // Relays 5-8
-    15,  4, 16, 17,  // Relays 9-12
-     5, 18, 19, 21   // Relays 13-16
+    32, 33, 23, 22, 21,  // Relays 1-5
+    19, 18, 5, 17, 16 // Relays 6-10
 };
 
 // ============================================================================
@@ -25,11 +23,21 @@ const int SENSOR_PINS[3] = {
 // ============================================================================
 // Sensor 1: 0-190Ω range
 const float SENSOR1_MIN_RESISTANCE = 0.0;
-const float SENSOR1_MAX_RESISTANCE = 190.0;
+const float SENSOR1_MAX_RESISTANCE = 10000.0;
 
 // Sensors 2 & 3: 30-240Ω range
-const float SENSOR23_MIN_RESISTANCE = 30.0;
-const float SENSOR23_MAX_RESISTANCE = 240.0;
+const float SENSOR23_MIN_RESISTANCE = 0.0;
+const float SENSOR23_MAX_RESISTANCE = 10000.0;
+
+// Sensor 1: 0-190Ω range
+//const float SENSOR1_MIN_RESISTANCE = 0.0;
+//const float SENSOR1_MAX_RESISTANCE = 190.0;
+
+// Sensors 2 & 3: 30-240Ω range
+//const float SENSOR23_MIN_RESISTANCE = 30.0;
+//const float SENSOR23_MAX_RESISTANCE = 240.0;
+
+
 
 // Voltage divider reference resistor (adjust based on your circuit)
 const float REFERENCE_RESISTOR = 1000.0;  // 1kΩ reference resistor
