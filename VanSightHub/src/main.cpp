@@ -55,6 +55,7 @@ void setup() {
   Serial.printf("✓ %d relays initialized\n\n", relayController.getCount());
   
   // Initialize sensors
+  // Initialize sensors
   initSensors();
   
   // Initialize WiFi (for both ESP-NOW and HTTP)
