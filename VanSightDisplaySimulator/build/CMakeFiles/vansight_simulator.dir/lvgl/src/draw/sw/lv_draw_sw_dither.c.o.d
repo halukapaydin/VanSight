@@ -1,0 +1,53 @@
+CMakeFiles/vansight_simulator.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.o: \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/lv_draw_sw_dither.c \
+ /usr/include/stdc-predef.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/lv_draw_sw_dither.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../core/lv_obj_pos.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../core/../misc/lv_area.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../core/../misc/../lv_conf_internal.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../core/../misc/../lv_conf_kconfig.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lv_conf.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/lv_draw_sw_gradient.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_color.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/../lv_conf_internal.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_assert.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_log.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_types.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_mem.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_math.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_style.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/../font/lv_font.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/../font/../lv_conf_internal.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/../font/lv_symbol_def.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/../font/../misc/lv_area.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_color.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_area.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_anim.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_txt.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_printf.h \
+ /usr/include/inttypes.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_bidi.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/draw/sw/../../misc/lv_style_gen.h

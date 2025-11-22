@@ -1,0 +1,3 @@
+/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles/vansight_simulator.dir
+/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles/edit_cache.dir
+/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles/rebuild_cache.dir
