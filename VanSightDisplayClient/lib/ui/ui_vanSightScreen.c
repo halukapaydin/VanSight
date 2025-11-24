@@ -152,7 +152,10 @@ void ui_event_btnCloseAll_RelayButton(lv_event_t * e)
 void ui_vanSightScreen_screen_init(void)
 {
     ui_vanSightScreen = lv_obj_create(NULL);
-    lv_obj_clear_flag(ui_vanSightScreen, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+    lv_obj_clear_flag(ui_vanSightScreen,
+                      LV_OBJ_FLAG_SCROLLABLE | LV_OBJ_FLAG_SCROLL_ELASTIC | LV_OBJ_FLAG_SCROLL_MOMENTUM |
+                      LV_OBJ_FLAG_SCROLL_CHAIN);     /// Flags
+    lv_obj_set_scrollbar_mode(ui_vanSightScreen, LV_SCROLLBAR_MODE_OFF);
     lv_obj_set_flex_flow(ui_vanSightScreen, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_flex_align(ui_vanSightScreen, LV_FLEX_ALIGN_SPACE_EVENLY, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER);
     lv_obj_set_style_bg_img_src(ui_vanSightScreen, &ui_img_images_bg_png, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -197,7 +200,7 @@ void ui_vanSightScreen_screen_init(void)
 
     ui_ButtonContainer = lv_obj_create(ui_LevelContainer1);
     lv_obj_remove_style_all(ui_ButtonContainer);
-    lv_obj_set_width(ui_ButtonContainer, 320);
+    lv_obj_set_width(ui_ButtonContainer, 318);
     lv_obj_set_height(ui_ButtonContainer, lv_pct(100));
     lv_obj_set_x(ui_ButtonContainer, -210);
     lv_obj_set_y(ui_ButtonContainer, 0);

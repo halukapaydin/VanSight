@@ -388,8 +388,8 @@
       "flags": 17,
       "strtype": "OBJECT/Size",
       "intarray": [
-        85,
-        85
+        80,
+        80
       ],
       "InheritedType": 7
     },
@@ -624,38 +624,75 @@
           "strval": "DEFAULT",
           "childs": [
             {
+              "nid": 10510,
+              "strtype": "_style/Bg_Radius",
+              "integer": 5,
+              "InheritedType": 6
+            },
+            {
               "nid": 10520,
               "strtype": "_style/Bg_Color",
               "intarray": [
                 36,
                 12,
                 255,
-                100
+                0
               ],
               "InheritedType": 7
             },
             {
-              "nid": 10710,
-              "strtype": "_style/Border_Color",
+              "nid": 10810,
+              "strtype": "_style/Outline_Color",
               "intarray": [
-                159,
-                133,
-                255,
+                32,
+                149,
+                246,
                 255
               ],
               "InheritedType": 7
             },
             {
-              "nid": 10720,
-              "strtype": "_style/Border width",
-              "integer": 1,
-              "InheritedType": 6
+              "nid": 10820,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                2,
+                5
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10920,
+              "strtype": "_style/Shadow_params",
+              "intarray": [
+                0,
+                0
+              ],
+              "InheritedType": 7
             },
             {
               "nid": 10450,
               "strtype": "_style/Text_Font",
               "strval": "FontAwsome7Solid",
               "InheritedType": 3
+            }
+          ],
+          "InheritedType": 1
+        },
+        {
+          "nid": 30000,
+          "strtype": "_style/StyleState",
+          "strval": "PRESSED",
+          "childs": [
+            {
+              "nid": 30520,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                230,
+                255,
+                0,
+                255
+              ],
+              "InheritedType": 7
             }
           ],
           "InheritedType": 1

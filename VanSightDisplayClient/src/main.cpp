@@ -35,6 +35,7 @@
 #include "ui_event_handlers.h"
 #include "ESPNowManager.h"
 #include "UIStateManager.h"
+#include "SleepManager.h"
 
 // Extend IO Pin define
 #define TP_RST 1
@@ -64,6 +65,7 @@
 #define LVGL_BUF_SIZE           (ESP_PANEL_LCD_H_RES * 20)
 
 ESP_Panel *panel = NULL;
+ESP_IOExpander *expander = NULL;
 SemaphoreHandle_t lvgl_mux = NULL;                  // LVGL mutex
 
 #if ESP_PANEL_LCD_BUS_TYPE == ESP_PANEL_BUS_TYPE_RGB
@@ -106,6 +108,9 @@ void lvgl_port_tp_read(lv_indev_drv_t * indev, lv_indev_data_t * data)
         data->point.y = point.y;
 
         Serial.printf("Touch point: x %d, y %d\n", point.x, point.y);
+        
+        // Reset sleep timer on touch
+        SleepManager::getInstance().resetTimer();
     }
 }
 #endif
@@ -198,7 +203,7 @@ void setup()
     Serial.println("Initialize IO expander");
     /* Initialize IO expander */
     // ESP_IOExpander *expander = new ESP_IOExpander_CH422G(I2C_MASTER_NUM, ESP_IO_EXPANDER_I2C_CH422G_ADDRESS_000, I2C_MASTER_SCL_IO, I2C_MASTER_SDA_IO);
-    ESP_IOExpander *expander = new ESP_IOExpander_CH422G(I2C_MASTER_NUM, ESP_IO_EXPANDER_I2C_CH422G_ADDRESS_000);
+    expander = new ESP_IOExpander_CH422G(I2C_MASTER_NUM, ESP_IO_EXPANDER_I2C_CH422G_ADDRESS_000);
     expander->init();
     expander->begin();
     expander->multiPinMode(TP_RST | LCD_BL | LCD_RST | SD_CS | USB_SEL, OUTPUT);
@@ -229,6 +234,9 @@ void setup()
     // Initialize UI State Manager
     UIStateManager::getInstance().init(lvgl_port_lock, lvgl_port_unlock);
     
+    // Initialize Sleep Manager
+    SleepManager::getInstance().init(panel, expander);
+    
     // Initialize ESP-NOW
     if (ESPNowManager::getInstance().init()) {
         // Register callbacks for ESP-NOW responses
@@ -253,15 +261,17 @@ void setup()
 
 void loop()
 {
-    static unsigned long lastStatusRequest = 0;
-    unsigned long now = millis();
-    
-    // Request status update every 5 seconds
-    if (ESPNowManager::getInstance().isInitialized() && 
-        (now - lastStatusRequest >= 5000)) {
-        ESPNowManager::getInstance().requestAllStatus();
-        lastStatusRequest = now;
-    }
-    
+    // static unsigned long lastStatusRequest = 0;
+    // unsigned long now = millis();
+    //
+    // // Request status update every 5 seconds
+    // if (ESPNowManager::getInstance().isInitialized() &&
+    //     (now - lastStatusRequest >= 5000)) {
+    //     ESPNowManager::getInstance().requestAllStatus();
+    //     lastStatusRequest = now;
+    // }
+    //
+    // Update sleep manager
+    SleepManager::getInstance().update();
     delay(100);
 }

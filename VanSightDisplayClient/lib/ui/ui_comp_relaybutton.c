@@ -12,8 +12,8 @@ lv_obj_t * ui_RelayButton_create(lv_obj_t * comp_parent)
 
     lv_obj_t * cui_RelayButton;
     cui_RelayButton = lv_btn_create(comp_parent);
-    lv_obj_set_width(cui_RelayButton, 85);
-    lv_obj_set_height(cui_RelayButton, 85);
+    lv_obj_set_width(cui_RelayButton, 80);
+    lv_obj_set_height(cui_RelayButton, 80);
     lv_obj_set_x(cui_RelayButton, -89);
     lv_obj_set_y(cui_RelayButton, -54);
     lv_obj_set_align(cui_RelayButton, LV_ALIGN_CENTER);
@@ -21,12 +21,18 @@ lv_obj_t * ui_RelayButton_create(lv_obj_t * comp_parent)
     lv_obj_set_flex_align(cui_RelayButton, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER);
     lv_obj_add_flag(cui_RelayButton, LV_OBJ_FLAG_SCROLL_ON_FOCUS);     /// Flags
     lv_obj_clear_flag(cui_RelayButton, LV_OBJ_FLAG_SCROLLABLE);      /// Flags
+    lv_obj_set_style_radius(cui_RelayButton, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(cui_RelayButton, lv_color_hex(0x240CFF), LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(cui_RelayButton, 100, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(cui_RelayButton, lv_color_hex(0x9F85FF), LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(cui_RelayButton, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(cui_RelayButton, 1, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(cui_RelayButton, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_outline_color(cui_RelayButton, lv_color_hex(0x2095F6), LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_outline_opa(cui_RelayButton, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_outline_width(cui_RelayButton, 2, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_outline_pad(cui_RelayButton, 5, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(cui_RelayButton, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_spread(cui_RelayButton, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(cui_RelayButton, &ui_font_FontAwsome7Solid, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(cui_RelayButton, lv_color_hex(0xE6FF00), LV_PART_MAIN | LV_STATE_PRESSED);
+    lv_obj_set_style_bg_opa(cui_RelayButton, 255, LV_PART_MAIN | LV_STATE_PRESSED);
 
     lv_obj_t * cui_Label2;
     cui_Label2 = lv_label_create(cui_RelayButton);
