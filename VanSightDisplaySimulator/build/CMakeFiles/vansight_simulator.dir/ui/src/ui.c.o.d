@@ -253,4 +253,8 @@ CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o: \
  /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/extra/widgets/span/lv_span.h \
  /development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/extra/widgets/span/../../../lvgl.h \
  /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_helpers.h \
- /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_events.h
+ /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_relaybutton.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_events.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.h

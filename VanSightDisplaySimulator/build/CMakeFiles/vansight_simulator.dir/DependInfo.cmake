@@ -205,11 +205,18 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/widgets/lv_table.c" "CMakeFiles/vansight_simulator.dir/lvgl/src/widgets/lv_table.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/lvgl/src/widgets/lv_table.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/lvgl/src/widgets/lv_textarea.c" "CMakeFiles/vansight_simulator.dir/lvgl/src/widgets/lv_textarea.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/lvgl/src/widgets/lv_textarea.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/main.c" "CMakeFiles/vansight_simulator.dir/main.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/main.c.o.d"
-  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/components/ui_comp_hook.c" "CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o.d"
-  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_FirstScreen.c" "CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o.d"
-  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_SecondScreen.c" "CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_relaybutton.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FaRegular.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FontAwsome7Solid.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_Roboto.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_fasolid.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_rubikwetpaint.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_helpers.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_img_images_bg_png.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o.d"
   )
 
 # Targets to which this target links.

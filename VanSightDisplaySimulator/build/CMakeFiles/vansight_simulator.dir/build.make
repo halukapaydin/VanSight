@@ -2827,52 +2827,10 @@ CMakeFiles/vansight_simulator.dir/lv_drivers/win_drv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/lv_drivers/win_drv.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/lv_drivers/win_drv.c -o CMakeFiles/vansight_simulator.dir/lv_drivers/win_drv.c.s
 
-CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o: CMakeFiles/vansight_simulator.dir/flags.make
-CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o: ../ui/src/components/ui_comp_hook.c
-CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/components/ui_comp_hook.c
-
-CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/components/ui_comp_hook.c > CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.i
-
-CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/components/ui_comp_hook.c -o CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.s
-
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o: CMakeFiles/vansight_simulator.dir/flags.make
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o: ../ui/src/screens/ui_FirstScreen.c
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_FirstScreen.c
-
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_FirstScreen.c > CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.i
-
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_FirstScreen.c -o CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.s
-
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o: CMakeFiles/vansight_simulator.dir/flags.make
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o: ../ui/src/screens/ui_SecondScreen.c
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_SecondScreen.c
-
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_SecondScreen.c > CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.i
-
-CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/screens/ui_SecondScreen.c -o CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.s
-
 CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o: CMakeFiles/vansight_simulator.dir/flags.make
 CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o: ../ui/src/ui.c
 CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui.c
 
 CMakeFiles/vansight_simulator.dir/ui/src/ui.c.i: cmake_force
@@ -2883,10 +2841,122 @@ CMakeFiles/vansight_simulator.dir/ui/src/ui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui.c.s
 
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o: ../ui/src/ui_comp.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o: ../ui/src/ui_comp_hook.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o: ../ui/src/ui_comp_relaybutton.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_relaybutton.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_relaybutton.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_relaybutton.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o: ../ui/src/ui_font_FaRegular.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FaRegular.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FaRegular.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FaRegular.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o: ../ui/src/ui_font_FontAwsome7Solid.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FontAwsome7Solid.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FontAwsome7Solid.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FontAwsome7Solid.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o: ../ui/src/ui_font_Roboto.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_Roboto.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_Roboto.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_Roboto.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o: ../ui/src/ui_font_fasolid.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_fasolid.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_fasolid.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_fasolid.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o: ../ui/src/ui_font_rubikwetpaint.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_rubikwetpaint.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_rubikwetpaint.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_rubikwetpaint.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.s
+
 CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o: CMakeFiles/vansight_simulator.dir/flags.make
 CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o: ../ui/src/ui_helpers.c
 CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_helpers.c
 
 CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.i: cmake_force
@@ -2896,6 +2966,34 @@ CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.i: cmake_force
 CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_helpers.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o: ../ui/src/ui_img_images_bg_png.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_img_images_bg_png.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_img_images_bg_png.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_img_images_bg_png.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.s
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o: CMakeFiles/vansight_simulator.dir/flags.make
+CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o: ../ui/src/ui_vanSightScreen.c
+CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o: CMakeFiles/vansight_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o -MF CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o.d -o CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o -c /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.c
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.c > CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.i
+
+CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.c -o CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.s
 
 # Object files for target vansight_simulator
 vansight_simulator_OBJECTS = \
@@ -3096,11 +3194,18 @@ vansight_simulator_OBJECTS = \
 "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_common.c.o" \
 "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_gpu.c.o" \
 "CMakeFiles/vansight_simulator.dir/lv_drivers/win_drv.c.o" \
-"CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o" \
-"CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o" \
-"CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o" \
 "CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o" \
-"CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o"
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o" \
+"CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o"
 
 # External object files for target vansight_simulator
 vansight_simulator_EXTERNAL_OBJECTS =
@@ -3302,14 +3407,21 @@ vansight_simulator: CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl.c.o
 vansight_simulator: CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_common.c.o
 vansight_simulator: CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_gpu.c.o
 vansight_simulator: CMakeFiles/vansight_simulator.dir/lv_drivers/win_drv.c.o
-vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o
-vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o
-vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o
 vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o
 vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o
+vansight_simulator: CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o
 vansight_simulator: CMakeFiles/vansight_simulator.dir/build.make
 vansight_simulator: CMakeFiles/vansight_simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Linking C executable vansight_simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/development/workspace/VanSight/VanSightDisplaySimulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Linking C executable vansight_simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vansight_simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

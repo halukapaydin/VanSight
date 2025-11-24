@@ -71,16 +71,29 @@ Bir SDL2 penceresi açılacak ve VanSight UI'ı görüntülenecektir:
 
 SquareLine Studio'da yaptığınız değişiklikleri simülatörde test etmek için:
 
-1. SquareLine Studio'dan UI'ı export edin
-2. Export edilen dosyaları kopyalayın:
+### Otomatik Yöntem (Önerilen)
+
+Build scripti otomatik olarak VanSightDisplayClient'tan UI dosyalarını kopyalar:
 ```bash
-cp -r /path/to/exported/ui/src/* /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/
+./build.sh
 ```
-3. Simülatörü yeniden derleyin:
+
+UI dosyaları `VanSightDisplayClient/lib/ui/` dizininden otomatik olarak kopyalanır ve simülatör yeniden derlenir.
+
+### Manuel Yöntem
+
+1. SquareLine Studio'dan UI'ı export edin
+2. Export edilen dosyaları VanSightDisplayClient'a kopyalayın
+3. Build scriptini çalıştırın (otomatik olarak sync yapacak):
 ```bash
-cd /development/workspace/VanSight/VanSightDisplaySimulator/build
-make -j$(nproc)
-./vansight_simulator
+./build.sh
+```
+
+### UI Sync'i Atlamak
+
+Eğer UI dosyalarını kopyalamadan sadece derlemek isterseniz:
+```bash
+./build.sh --no-sync
 ```
 
 ## Özellikler

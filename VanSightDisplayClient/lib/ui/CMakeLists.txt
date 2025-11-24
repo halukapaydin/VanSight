@@ -1,0 +1,14 @@
+SET(SOURCES ui_comp_relaybutton.c
+    ui_comp.c
+    ui_vanSightScreen.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_images_bg_png.c
+    fonts/ui_font_FaRegular.c
+    fonts/ui_font_FontAwsome7Solid.c
+    fonts/ui_font_Roboto.c
+    fonts/ui_font_fasolid.c
+    fonts/ui_font_rubikwetpaint.c)
+
+add_library(ui ${SOURCES})

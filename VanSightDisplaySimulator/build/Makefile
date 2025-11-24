@@ -4857,78 +4857,6 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/main.c.s
 .PHONY : main.c.s
 
-ui/src/components/ui_comp_hook.o: ui/src/components/ui_comp_hook.c.o
-.PHONY : ui/src/components/ui_comp_hook.o
-
-# target to build an object file
-ui/src/components/ui_comp_hook.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.o
-.PHONY : ui/src/components/ui_comp_hook.c.o
-
-ui/src/components/ui_comp_hook.i: ui/src/components/ui_comp_hook.c.i
-.PHONY : ui/src/components/ui_comp_hook.i
-
-# target to preprocess a source file
-ui/src/components/ui_comp_hook.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.i
-.PHONY : ui/src/components/ui_comp_hook.c.i
-
-ui/src/components/ui_comp_hook.s: ui/src/components/ui_comp_hook.c.s
-.PHONY : ui/src/components/ui_comp_hook.s
-
-# target to generate assembly for a file
-ui/src/components/ui_comp_hook.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/components/ui_comp_hook.c.s
-.PHONY : ui/src/components/ui_comp_hook.c.s
-
-ui/src/screens/ui_FirstScreen.o: ui/src/screens/ui_FirstScreen.c.o
-.PHONY : ui/src/screens/ui_FirstScreen.o
-
-# target to build an object file
-ui/src/screens/ui_FirstScreen.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.o
-.PHONY : ui/src/screens/ui_FirstScreen.c.o
-
-ui/src/screens/ui_FirstScreen.i: ui/src/screens/ui_FirstScreen.c.i
-.PHONY : ui/src/screens/ui_FirstScreen.i
-
-# target to preprocess a source file
-ui/src/screens/ui_FirstScreen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.i
-.PHONY : ui/src/screens/ui_FirstScreen.c.i
-
-ui/src/screens/ui_FirstScreen.s: ui/src/screens/ui_FirstScreen.c.s
-.PHONY : ui/src/screens/ui_FirstScreen.s
-
-# target to generate assembly for a file
-ui/src/screens/ui_FirstScreen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_FirstScreen.c.s
-.PHONY : ui/src/screens/ui_FirstScreen.c.s
-
-ui/src/screens/ui_SecondScreen.o: ui/src/screens/ui_SecondScreen.c.o
-.PHONY : ui/src/screens/ui_SecondScreen.o
-
-# target to build an object file
-ui/src/screens/ui_SecondScreen.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.o
-.PHONY : ui/src/screens/ui_SecondScreen.c.o
-
-ui/src/screens/ui_SecondScreen.i: ui/src/screens/ui_SecondScreen.c.i
-.PHONY : ui/src/screens/ui_SecondScreen.i
-
-# target to preprocess a source file
-ui/src/screens/ui_SecondScreen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.i
-.PHONY : ui/src/screens/ui_SecondScreen.c.i
-
-ui/src/screens/ui_SecondScreen.s: ui/src/screens/ui_SecondScreen.c.s
-.PHONY : ui/src/screens/ui_SecondScreen.s
-
-# target to generate assembly for a file
-ui/src/screens/ui_SecondScreen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/screens/ui_SecondScreen.c.s
-.PHONY : ui/src/screens/ui_SecondScreen.c.s
-
 ui/src/ui.o: ui/src/ui.c.o
 .PHONY : ui/src/ui.o
 
@@ -4953,6 +4881,198 @@ ui/src/ui.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui.c.s
 .PHONY : ui/src/ui.c.s
 
+ui/src/ui_comp.o: ui/src/ui_comp.c.o
+.PHONY : ui/src/ui_comp.o
+
+# target to build an object file
+ui/src/ui_comp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o
+.PHONY : ui/src/ui_comp.c.o
+
+ui/src/ui_comp.i: ui/src/ui_comp.c.i
+.PHONY : ui/src/ui_comp.i
+
+# target to preprocess a source file
+ui/src/ui_comp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.i
+.PHONY : ui/src/ui_comp.c.i
+
+ui/src/ui_comp.s: ui/src/ui_comp.c.s
+.PHONY : ui/src/ui_comp.s
+
+# target to generate assembly for a file
+ui/src/ui_comp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.s
+.PHONY : ui/src/ui_comp.c.s
+
+ui/src/ui_comp_hook.o: ui/src/ui_comp_hook.c.o
+.PHONY : ui/src/ui_comp_hook.o
+
+# target to build an object file
+ui/src/ui_comp_hook.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o
+.PHONY : ui/src/ui_comp_hook.c.o
+
+ui/src/ui_comp_hook.i: ui/src/ui_comp_hook.c.i
+.PHONY : ui/src/ui_comp_hook.i
+
+# target to preprocess a source file
+ui/src/ui_comp_hook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.i
+.PHONY : ui/src/ui_comp_hook.c.i
+
+ui/src/ui_comp_hook.s: ui/src/ui_comp_hook.c.s
+.PHONY : ui/src/ui_comp_hook.s
+
+# target to generate assembly for a file
+ui/src/ui_comp_hook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.s
+.PHONY : ui/src/ui_comp_hook.c.s
+
+ui/src/ui_comp_relaybutton.o: ui/src/ui_comp_relaybutton.c.o
+.PHONY : ui/src/ui_comp_relaybutton.o
+
+# target to build an object file
+ui/src/ui_comp_relaybutton.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o
+.PHONY : ui/src/ui_comp_relaybutton.c.o
+
+ui/src/ui_comp_relaybutton.i: ui/src/ui_comp_relaybutton.c.i
+.PHONY : ui/src/ui_comp_relaybutton.i
+
+# target to preprocess a source file
+ui/src/ui_comp_relaybutton.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.i
+.PHONY : ui/src/ui_comp_relaybutton.c.i
+
+ui/src/ui_comp_relaybutton.s: ui/src/ui_comp_relaybutton.c.s
+.PHONY : ui/src/ui_comp_relaybutton.s
+
+# target to generate assembly for a file
+ui/src/ui_comp_relaybutton.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.s
+.PHONY : ui/src/ui_comp_relaybutton.c.s
+
+ui/src/ui_font_FaRegular.o: ui/src/ui_font_FaRegular.c.o
+.PHONY : ui/src/ui_font_FaRegular.o
+
+# target to build an object file
+ui/src/ui_font_FaRegular.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o
+.PHONY : ui/src/ui_font_FaRegular.c.o
+
+ui/src/ui_font_FaRegular.i: ui/src/ui_font_FaRegular.c.i
+.PHONY : ui/src/ui_font_FaRegular.i
+
+# target to preprocess a source file
+ui/src/ui_font_FaRegular.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.i
+.PHONY : ui/src/ui_font_FaRegular.c.i
+
+ui/src/ui_font_FaRegular.s: ui/src/ui_font_FaRegular.c.s
+.PHONY : ui/src/ui_font_FaRegular.s
+
+# target to generate assembly for a file
+ui/src/ui_font_FaRegular.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.s
+.PHONY : ui/src/ui_font_FaRegular.c.s
+
+ui/src/ui_font_FontAwsome7Solid.o: ui/src/ui_font_FontAwsome7Solid.c.o
+.PHONY : ui/src/ui_font_FontAwsome7Solid.o
+
+# target to build an object file
+ui/src/ui_font_FontAwsome7Solid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o
+.PHONY : ui/src/ui_font_FontAwsome7Solid.c.o
+
+ui/src/ui_font_FontAwsome7Solid.i: ui/src/ui_font_FontAwsome7Solid.c.i
+.PHONY : ui/src/ui_font_FontAwsome7Solid.i
+
+# target to preprocess a source file
+ui/src/ui_font_FontAwsome7Solid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.i
+.PHONY : ui/src/ui_font_FontAwsome7Solid.c.i
+
+ui/src/ui_font_FontAwsome7Solid.s: ui/src/ui_font_FontAwsome7Solid.c.s
+.PHONY : ui/src/ui_font_FontAwsome7Solid.s
+
+# target to generate assembly for a file
+ui/src/ui_font_FontAwsome7Solid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.s
+.PHONY : ui/src/ui_font_FontAwsome7Solid.c.s
+
+ui/src/ui_font_Roboto.o: ui/src/ui_font_Roboto.c.o
+.PHONY : ui/src/ui_font_Roboto.o
+
+# target to build an object file
+ui/src/ui_font_Roboto.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o
+.PHONY : ui/src/ui_font_Roboto.c.o
+
+ui/src/ui_font_Roboto.i: ui/src/ui_font_Roboto.c.i
+.PHONY : ui/src/ui_font_Roboto.i
+
+# target to preprocess a source file
+ui/src/ui_font_Roboto.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.i
+.PHONY : ui/src/ui_font_Roboto.c.i
+
+ui/src/ui_font_Roboto.s: ui/src/ui_font_Roboto.c.s
+.PHONY : ui/src/ui_font_Roboto.s
+
+# target to generate assembly for a file
+ui/src/ui_font_Roboto.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.s
+.PHONY : ui/src/ui_font_Roboto.c.s
+
+ui/src/ui_font_fasolid.o: ui/src/ui_font_fasolid.c.o
+.PHONY : ui/src/ui_font_fasolid.o
+
+# target to build an object file
+ui/src/ui_font_fasolid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.o
+.PHONY : ui/src/ui_font_fasolid.c.o
+
+ui/src/ui_font_fasolid.i: ui/src/ui_font_fasolid.c.i
+.PHONY : ui/src/ui_font_fasolid.i
+
+# target to preprocess a source file
+ui/src/ui_font_fasolid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.i
+.PHONY : ui/src/ui_font_fasolid.c.i
+
+ui/src/ui_font_fasolid.s: ui/src/ui_font_fasolid.c.s
+.PHONY : ui/src/ui_font_fasolid.s
+
+# target to generate assembly for a file
+ui/src/ui_font_fasolid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_fasolid.c.s
+.PHONY : ui/src/ui_font_fasolid.c.s
+
+ui/src/ui_font_rubikwetpaint.o: ui/src/ui_font_rubikwetpaint.c.o
+.PHONY : ui/src/ui_font_rubikwetpaint.o
+
+# target to build an object file
+ui/src/ui_font_rubikwetpaint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.o
+.PHONY : ui/src/ui_font_rubikwetpaint.c.o
+
+ui/src/ui_font_rubikwetpaint.i: ui/src/ui_font_rubikwetpaint.c.i
+.PHONY : ui/src/ui_font_rubikwetpaint.i
+
+# target to preprocess a source file
+ui/src/ui_font_rubikwetpaint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.i
+.PHONY : ui/src/ui_font_rubikwetpaint.c.i
+
+ui/src/ui_font_rubikwetpaint.s: ui/src/ui_font_rubikwetpaint.c.s
+.PHONY : ui/src/ui_font_rubikwetpaint.s
+
+# target to generate assembly for a file
+ui/src/ui_font_rubikwetpaint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_font_rubikwetpaint.c.s
+.PHONY : ui/src/ui_font_rubikwetpaint.c.s
+
 ui/src/ui_helpers.o: ui/src/ui_helpers.c.o
 .PHONY : ui/src/ui_helpers.o
 
@@ -4976,6 +5096,54 @@ ui/src/ui_helpers.s: ui/src/ui_helpers.c.s
 ui/src/ui_helpers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.s
 .PHONY : ui/src/ui_helpers.c.s
+
+ui/src/ui_img_images_bg_png.o: ui/src/ui_img_images_bg_png.c.o
+.PHONY : ui/src/ui_img_images_bg_png.o
+
+# target to build an object file
+ui/src/ui_img_images_bg_png.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o
+.PHONY : ui/src/ui_img_images_bg_png.c.o
+
+ui/src/ui_img_images_bg_png.i: ui/src/ui_img_images_bg_png.c.i
+.PHONY : ui/src/ui_img_images_bg_png.i
+
+# target to preprocess a source file
+ui/src/ui_img_images_bg_png.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.i
+.PHONY : ui/src/ui_img_images_bg_png.c.i
+
+ui/src/ui_img_images_bg_png.s: ui/src/ui_img_images_bg_png.c.s
+.PHONY : ui/src/ui_img_images_bg_png.s
+
+# target to generate assembly for a file
+ui/src/ui_img_images_bg_png.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.s
+.PHONY : ui/src/ui_img_images_bg_png.c.s
+
+ui/src/ui_vanSightScreen.o: ui/src/ui_vanSightScreen.c.o
+.PHONY : ui/src/ui_vanSightScreen.o
+
+# target to build an object file
+ui/src/ui_vanSightScreen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o
+.PHONY : ui/src/ui_vanSightScreen.c.o
+
+ui/src/ui_vanSightScreen.i: ui/src/ui_vanSightScreen.c.i
+.PHONY : ui/src/ui_vanSightScreen.i
+
+# target to preprocess a source file
+ui/src/ui_vanSightScreen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.i
+.PHONY : ui/src/ui_vanSightScreen.c.i
+
+ui/src/ui_vanSightScreen.s: ui/src/ui_vanSightScreen.c.s
+.PHONY : ui/src/ui_vanSightScreen.s
+
+# target to generate assembly for a file
+ui/src/ui_vanSightScreen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.s
+.PHONY : ui/src/ui_vanSightScreen.c.s
 
 # Help Target
 help:
@@ -5577,21 +5745,42 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ui/src/components/ui_comp_hook.o"
-	@echo "... ui/src/components/ui_comp_hook.i"
-	@echo "... ui/src/components/ui_comp_hook.s"
-	@echo "... ui/src/screens/ui_FirstScreen.o"
-	@echo "... ui/src/screens/ui_FirstScreen.i"
-	@echo "... ui/src/screens/ui_FirstScreen.s"
-	@echo "... ui/src/screens/ui_SecondScreen.o"
-	@echo "... ui/src/screens/ui_SecondScreen.i"
-	@echo "... ui/src/screens/ui_SecondScreen.s"
 	@echo "... ui/src/ui.o"
 	@echo "... ui/src/ui.i"
 	@echo "... ui/src/ui.s"
+	@echo "... ui/src/ui_comp.o"
+	@echo "... ui/src/ui_comp.i"
+	@echo "... ui/src/ui_comp.s"
+	@echo "... ui/src/ui_comp_hook.o"
+	@echo "... ui/src/ui_comp_hook.i"
+	@echo "... ui/src/ui_comp_hook.s"
+	@echo "... ui/src/ui_comp_relaybutton.o"
+	@echo "... ui/src/ui_comp_relaybutton.i"
+	@echo "... ui/src/ui_comp_relaybutton.s"
+	@echo "... ui/src/ui_font_FaRegular.o"
+	@echo "... ui/src/ui_font_FaRegular.i"
+	@echo "... ui/src/ui_font_FaRegular.s"
+	@echo "... ui/src/ui_font_FontAwsome7Solid.o"
+	@echo "... ui/src/ui_font_FontAwsome7Solid.i"
+	@echo "... ui/src/ui_font_FontAwsome7Solid.s"
+	@echo "... ui/src/ui_font_Roboto.o"
+	@echo "... ui/src/ui_font_Roboto.i"
+	@echo "... ui/src/ui_font_Roboto.s"
+	@echo "... ui/src/ui_font_fasolid.o"
+	@echo "... ui/src/ui_font_fasolid.i"
+	@echo "... ui/src/ui_font_fasolid.s"
+	@echo "... ui/src/ui_font_rubikwetpaint.o"
+	@echo "... ui/src/ui_font_rubikwetpaint.i"
+	@echo "... ui/src/ui_font_rubikwetpaint.s"
 	@echo "... ui/src/ui_helpers.o"
 	@echo "... ui/src/ui_helpers.i"
 	@echo "... ui/src/ui_helpers.s"
+	@echo "... ui/src/ui_img_images_bg_png.o"
+	@echo "... ui/src/ui_img_images_bg_png.i"
+	@echo "... ui/src/ui_img_images_bg_png.s"
+	@echo "... ui/src/ui_vanSightScreen.o"
+	@echo "... ui/src/ui_vanSightScreen.i"
+	@echo "... ui/src/ui_vanSightScreen.s"
 .PHONY : help
 
 

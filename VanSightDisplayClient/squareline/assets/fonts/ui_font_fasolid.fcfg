@@ -1,0 +1,16 @@
+{
+  "codename": "fasolid",
+  "ttf_path": "/assets/fonts/fa-solid-900.ttf",
+  "bin_path": "/assets/fonts/ui_font_fasolid.bin",
+  "c_path": "/assets/fonts/ui_font_fasolid.c",
+  "cfg_path": "/assets/fonts/ui_font_fasolid.fcfg",
+  "size": 36,
+  "bpp": 1,
+  "letters": 0,
+  "ranges": [
+    "0xF000-0xF8FF"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}
