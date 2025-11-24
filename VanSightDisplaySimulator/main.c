@@ -13,6 +13,7 @@
 #include "lvgl/lvgl.h"
 #include "lv_drivers/sdl/sdl.h"
 #include "ui/src/ui.h"
+#include "ui_event_handlers.h"
 
 /* Display resolution */
 #define HOR_RES 800

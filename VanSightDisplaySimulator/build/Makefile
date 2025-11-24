@@ -4953,6 +4953,30 @@ ui/src/ui_comp_relaybutton.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.s
 .PHONY : ui/src/ui_comp_relaybutton.c.s
 
+ui/src/ui_events.o: ui/src/ui_events.c.o
+.PHONY : ui/src/ui_events.o
+
+# target to build an object file
+ui/src/ui_events.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.o
+.PHONY : ui/src/ui_events.c.o
+
+ui/src/ui_events.i: ui/src/ui_events.c.i
+.PHONY : ui/src/ui_events.i
+
+# target to preprocess a source file
+ui/src/ui_events.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.i
+.PHONY : ui/src/ui_events.c.i
+
+ui/src/ui_events.s: ui/src/ui_events.c.s
+.PHONY : ui/src/ui_events.s
+
+# target to generate assembly for a file
+ui/src/ui_events.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.s
+.PHONY : ui/src/ui_events.c.s
+
 ui/src/ui_font_FaRegular.o: ui/src/ui_font_FaRegular.c.o
 .PHONY : ui/src/ui_font_FaRegular.o
 
@@ -5144,6 +5168,30 @@ ui/src/ui_vanSightScreen.s: ui/src/ui_vanSightScreen.c.s
 ui/src/ui_vanSightScreen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.s
 .PHONY : ui/src/ui_vanSightScreen.c.s
+
+ui_event_handlers.o: ui_event_handlers.c.o
+.PHONY : ui_event_handlers.o
+
+# target to build an object file
+ui_event_handlers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.o
+.PHONY : ui_event_handlers.c.o
+
+ui_event_handlers.i: ui_event_handlers.c.i
+.PHONY : ui_event_handlers.i
+
+# target to preprocess a source file
+ui_event_handlers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.i
+.PHONY : ui_event_handlers.c.i
+
+ui_event_handlers.s: ui_event_handlers.c.s
+.PHONY : ui_event_handlers.s
+
+# target to generate assembly for a file
+ui_event_handlers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.s
+.PHONY : ui_event_handlers.c.s
 
 # Help Target
 help:
@@ -5757,6 +5805,9 @@ help:
 	@echo "... ui/src/ui_comp_relaybutton.o"
 	@echo "... ui/src/ui_comp_relaybutton.i"
 	@echo "... ui/src/ui_comp_relaybutton.s"
+	@echo "... ui/src/ui_events.o"
+	@echo "... ui/src/ui_events.i"
+	@echo "... ui/src/ui_events.s"
 	@echo "... ui/src/ui_font_FaRegular.o"
 	@echo "... ui/src/ui_font_FaRegular.i"
 	@echo "... ui/src/ui_font_FaRegular.s"
@@ -5781,6 +5832,9 @@ help:
 	@echo "... ui/src/ui_vanSightScreen.o"
 	@echo "... ui/src/ui_vanSightScreen.i"
 	@echo "... ui/src/ui_vanSightScreen.s"
+	@echo "... ui_event_handlers.o"
+	@echo "... ui_event_handlers.i"
+	@echo "... ui_event_handlers.s"
 .PHONY : help
 
 

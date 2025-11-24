@@ -401,6 +401,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o.d"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o.d"
+  "CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.o"
+  "CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.o.d"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o.d"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o"
@@ -417,6 +419,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o.d"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o"
   "CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o.d"
+  "CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.o"
+  "CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.o.d"
   "vansight_simulator"
   "vansight_simulator.pdb"
 )

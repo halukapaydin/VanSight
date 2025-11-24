@@ -39,6 +39,113 @@ lv_obj_t * ui_barBlackWaterLevel = NULL;
 lv_obj_t * ui_LabelIcon2 = NULL;
 lv_obj_t * ui_LabelName2 = NULL;
 // event funtions
+void ui_event_btnHome_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnHomeClick(e);
+    }
+}
+
+void ui_event_btnLeftChair_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnLeftChairClick(e);
+    }
+}
+
+void ui_event_btnRightChair_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnRightChairClick(e);
+    }
+}
+
+void ui_event_btnKitchen_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnKitchenClick(e);
+    }
+}
+
+void ui_event_btnToilet_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnToiletClick(e);
+    }
+}
+
+void ui_event_btnBath_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBathClick(e);
+    }
+}
+
+void ui_event_btnBed_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBedClick(e);
+    }
+}
+
+void ui_event_btnBalkonyUp_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBalkonyUpClick(e);
+    }
+}
+
+void ui_event_btnBalkonyDown_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBalkonyDownClick(e);
+    }
+}
+
+void ui_event_btnProjector_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnProjectorClick(e);
+    }
+}
+
+void ui_event_btnReloadInformation_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnReloadInformationClick(e);
+    }
+}
+
+void ui_event_btnCloseAll_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnCloseAllClick(e);
+    }
+}
 
 // build funtions
 
@@ -55,8 +162,8 @@ void ui_vanSightScreen_screen_init(void)
 
     ui_Container1 = lv_obj_create(ui_vanSightScreen);
     lv_obj_remove_style_all(ui_Container1);
-    lv_obj_set_height(ui_Container1, 50);
     lv_obj_set_width(ui_Container1, lv_pct(100));
+    lv_obj_set_height(ui_Container1, LV_SIZE_CONTENT);    /// 20
     lv_obj_set_x(ui_Container1, -7);
     lv_obj_set_y(ui_Container1, -185);
     lv_obj_set_align(ui_Container1, LV_ALIGN_CENTER);
@@ -70,6 +177,8 @@ void ui_vanSightScreen_screen_init(void)
     lv_obj_set_x(ui_lblTitle, -363);
     lv_obj_set_y(ui_lblTitle, -7);
     lv_obj_set_align(ui_lblTitle, LV_ALIGN_CENTER);
+    lv_obj_set_flex_flow(ui_lblTitle, LV_FLEX_FLOW_ROW);
+    lv_obj_set_flex_align(ui_lblTitle, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START);
     lv_label_set_text(ui_lblTitle, "AVAREYOLCULAR");
     lv_obj_set_style_text_color(ui_lblTitle, lv_color_hex(0x19FC00), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_lblTitle, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -381,6 +490,19 @@ void ui_vanSightScreen_screen_init(void)
     lv_obj_set_style_text_color(ui_LabelName2, lv_color_hex(0xFF4C4A), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_LabelName2, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_LabelName2, &ui_font_Roboto, LV_PART_MAIN | LV_STATE_DEFAULT);
+
+    lv_obj_add_event_cb(ui_btnHome, ui_event_btnHome_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnLeftChair, ui_event_btnLeftChair_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnRightChair, ui_event_btnRightChair_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnKitchen, ui_event_btnKitchen_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnToilet, ui_event_btnToilet_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBath, ui_event_btnBath_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBed, ui_event_btnBed_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBalkonyUp, ui_event_btnBalkonyUp_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBalkonyDown, ui_event_btnBalkonyDown_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnProjector, ui_event_btnProjector_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnReloadInformation, ui_event_btnReloadInformation_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnCloseAll, ui_event_btnCloseAll_RelayButton, LV_EVENT_ALL, NULL);
 
 }
 

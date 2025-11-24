@@ -32,6 +32,7 @@
 #include <ESP_Panel_Library.h>
 #include <ESP_IOExpander_Library.h>
 #include <ui.h>
+#include "ui_event_handlers.h"
 
 // Extend IO Pin define
 #define TP_RST 1

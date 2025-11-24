@@ -4,6 +4,7 @@ SET(SOURCES ui_comp_relaybutton.c
     ui.c
     ui_comp_hook.c
     ui_helpers.c
+    ui_events.c
     ui_img_images_bg_png.c
     fonts/ui_font_FaRegular.c
     fonts/ui_font_FontAwsome7Solid.c

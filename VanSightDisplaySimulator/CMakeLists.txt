@@ -38,6 +38,7 @@ file(GLOB_RECURSE UI_SOURCES
 # Main executable
 add_executable(vansight_simulator
     main.c
+    ui_event_handlers.c
     ${LVGL_SOURCES}
     ${LV_DRIVERS_SOURCES}
     ${UI_SOURCES}

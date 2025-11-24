@@ -209,6 +209,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_hook.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_relaybutton.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_comp_relaybutton.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_events.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_events.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FaRegular.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FaRegular.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_FontAwsome7Solid.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_FontAwsome7Solid.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_font_Roboto.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_font_Roboto.c.o.d"
@@ -217,6 +218,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_helpers.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_helpers.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_img_images_bg_png.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_img_images_bg_png.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.c" "CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui/src/ui_vanSightScreen.c.o.d"
+  "/development/workspace/VanSight/VanSightDisplaySimulator/ui_event_handlers.c" "CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/ui_event_handlers.c.o.d"
   )
 
 # Targets to which this target links.

@@ -39,6 +39,113 @@ lv_obj_t * ui_barBlackWaterLevel = NULL;
 lv_obj_t * ui_LabelIcon2 = NULL;
 lv_obj_t * ui_LabelName2 = NULL;
 // event funtions
+void ui_event_btnHome_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnHomeClick(e);
+    }
+}
+
+void ui_event_btnLeftChair_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnLeftChairClick(e);
+    }
+}
+
+void ui_event_btnRightChair_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnRightChairClick(e);
+    }
+}
+
+void ui_event_btnKitchen_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnKitchenClick(e);
+    }
+}
+
+void ui_event_btnToilet_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnToiletClick(e);
+    }
+}
+
+void ui_event_btnBath_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBathClick(e);
+    }
+}
+
+void ui_event_btnBed_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBedClick(e);
+    }
+}
+
+void ui_event_btnBalkonyUp_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBalkonyUpClick(e);
+    }
+}
+
+void ui_event_btnBalkonyDown_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnBalkonyDownClick(e);
+    }
+}
+
+void ui_event_btnProjector_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnProjectorClick(e);
+    }
+}
+
+void ui_event_btnReloadInformation_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnReloadInformationClick(e);
+    }
+}
+
+void ui_event_btnCloseAll_RelayButton(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+
+    if(event_code == LV_EVENT_CLICKED) {
+        onBtnCloseAllClick(e);
+    }
+}
 
 // build funtions
 
@@ -383,6 +490,19 @@ void ui_vanSightScreen_screen_init(void)
     lv_obj_set_style_text_color(ui_LabelName2, lv_color_hex(0xFF4C4A), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_LabelName2, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_LabelName2, &ui_font_Roboto, LV_PART_MAIN | LV_STATE_DEFAULT);
+
+    lv_obj_add_event_cb(ui_btnHome, ui_event_btnHome_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnLeftChair, ui_event_btnLeftChair_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnRightChair, ui_event_btnRightChair_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnKitchen, ui_event_btnKitchen_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnToilet, ui_event_btnToilet_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBath, ui_event_btnBath_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBed, ui_event_btnBed_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBalkonyUp, ui_event_btnBalkonyUp_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnBalkonyDown, ui_event_btnBalkonyDown_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnProjector, ui_event_btnProjector_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnReloadInformation, ui_event_btnReloadInformation_RelayButton, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_btnCloseAll, ui_event_btnCloseAll_RelayButton, LV_EVENT_ALL, NULL);
 
 }
 
