@@ -129,6 +129,30 @@ vansight_simulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/build
 .PHONY : vansight_simulator/fast
 
+espnow_stub.o: espnow_stub.c.o
+.PHONY : espnow_stub.o
+
+# target to build an object file
+espnow_stub.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/espnow_stub.c.o
+.PHONY : espnow_stub.c.o
+
+espnow_stub.i: espnow_stub.c.i
+.PHONY : espnow_stub.i
+
+# target to preprocess a source file
+espnow_stub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/espnow_stub.c.i
+.PHONY : espnow_stub.c.i
+
+espnow_stub.s: espnow_stub.c.s
+.PHONY : espnow_stub.s
+
+# target to generate assembly for a file
+espnow_stub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vansight_simulator.dir/build.make CMakeFiles/vansight_simulator.dir/espnow_stub.c.s
+.PHONY : espnow_stub.c.s
+
 lv_drivers/sdl/sdl.o: lv_drivers/sdl/sdl.c.o
 .PHONY : lv_drivers/sdl/sdl.o
 
@@ -5202,6 +5226,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vansight_simulator"
+	@echo "... espnow_stub.o"
+	@echo "... espnow_stub.i"
+	@echo "... espnow_stub.s"
 	@echo "... lv_drivers/sdl/sdl.o"
 	@echo "... lv_drivers/sdl/sdl.i"
 	@echo "... lv_drivers/sdl/sdl.s"

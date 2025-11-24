@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/vansight_simulator.dir/espnow_stub.c.o"
+  "CMakeFiles/vansight_simulator.dir/espnow_stub.c.o.d"
   "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl.c.o"
   "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl.c.o.d"
   "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_common.c.o"

@@ -33,6 +33,8 @@
 #include <ESP_IOExpander_Library.h>
 #include <ui.h>
 #include "ui_event_handlers.h"
+#include "ESPNowManager.h"
+#include "UIStateManager.h"
 
 // Extend IO Pin define
 #define TP_RST 1
@@ -223,12 +225,43 @@ void setup()
 
     /* Release the mutex */
     lvgl_port_unlock();
+    
+    // Initialize UI State Manager
+    UIStateManager::getInstance().init(lvgl_port_lock, lvgl_port_unlock);
+    
+    // Initialize ESP-NOW
+    if (ESPNowManager::getInstance().init()) {
+        // Register callbacks for ESP-NOW responses
+        ESPNowManager::getInstance().setRelayStatusCallback([](uint8_t relayNum, bool state) {
+            UIStateManager::getInstance().updateRelayButton(relayNum, state);
+        });
+        
+        ESPNowManager::getInstance().setAllStatusCallback([](bool relayStates[], int sensorLevels[]) {
+            UIStateManager::getInstance().updateAllRelayStates(relayStates);
+            UIStateManager::getInstance().updateAllSensorLevels(sensorLevels);
+        });
+        
+        // Request initial status
+        delay(1000);  // Wait for Hub to be ready
+        ESPNowManager::getInstance().requestAllStatus();
+    } else {
+        Serial.println("ESP-NOW initialization failed!");
+    }
 
     Serial.println("Setup done");
 }
 
 void loop()
 {
-    // Serial.println("Loop");
-    sleep(1);
+    static unsigned long lastStatusRequest = 0;
+    unsigned long now = millis();
+    
+    // Request status update every 5 seconds
+    if (ESPNowManager::getInstance().isInitialized() && 
+        (now - lastStatusRequest >= 5000)) {
+        ESPNowManager::getInstance().requestAllStatus();
+        lastStatusRequest = now;
+    }
+    
+    delay(100);
 }

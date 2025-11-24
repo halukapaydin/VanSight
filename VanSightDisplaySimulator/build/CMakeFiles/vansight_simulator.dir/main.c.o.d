@@ -313,4 +313,5 @@ CMakeFiles/vansight_simulator.dir/main.c.o: \
  /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_comp_hook.h \
  /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_events.h \
  /development/workspace/VanSight/VanSightDisplaySimulator/ui/src/ui_vanSightScreen.h \
- /development/workspace/VanSight/VanSightDisplaySimulator/ui_event_handlers.h
+ /development/workspace/VanSight/VanSightDisplaySimulator/ui_event_handlers.h \
+ /development/workspace/VanSight/VanSightDisplaySimulator/espnow_stub.h

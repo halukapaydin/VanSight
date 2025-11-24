@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/development/workspace/VanSight/VanSightDisplaySimulator/espnow_stub.c" "CMakeFiles/vansight_simulator.dir/espnow_stub.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/espnow_stub.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/lv_drivers/sdl/sdl.c" "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/lv_drivers/sdl/sdl_common.c" "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_common.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_common.c.o.d"
   "/development/workspace/VanSight/VanSightDisplaySimulator/lv_drivers/sdl/sdl_gpu.c" "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_gpu.c.o" "gcc" "CMakeFiles/vansight_simulator.dir/lv_drivers/sdl/sdl_gpu.c.o.d"
