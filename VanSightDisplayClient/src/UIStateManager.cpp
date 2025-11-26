@@ -31,6 +31,7 @@ void UIStateManager::updateButtonState(lv_obj_t* buttonObj, bool isActive) {
     
     lv_color_t color = isActive ? COLOR_BUTTON_ACTIVE : COLOR_BUTTON_INACTIVE;
     lv_obj_set_style_bg_color(buttonObj, color, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(buttonObj, 255, LV_PART_MAIN | LV_STATE_DEFAULT); // Ensure opacity is set
     
     if (_unlockFunc) _unlockFunc();
 }
@@ -93,6 +94,16 @@ void UIStateManager::updateRelayButton(uint8_t relayNum, bool state) {
         updateButtonState(buttonObj, state);
         Serial.printf("[UI] Relay %d button: %s\n", relayNum, state ? "ACTIVE" : "INACTIVE");
     }
+}
+void UIStateManager::updateConnectionStatus(bool connected)
+{
+    if (_lockFunc) _lockFunc(-1);
+
+    lv_color_t color = connected ? COLOR_CONNECTION_ACTIVE : COLOR_CONNECTION_LOST;
+    lv_obj_set_style_bg_color(ui_lblTitle, color, LV_PART_MAIN | LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui_lblTitle, 255, LV_PART_MAIN | LV_STATE_DEFAULT); // Ensure opacity is set
+
+    if (_unlockFunc) _unlockFunc();
 }
 
 lv_obj_t* UIStateManager::getButtonByRelayNum(uint8_t relayNum) {

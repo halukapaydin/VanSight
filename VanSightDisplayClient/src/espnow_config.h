@@ -9,7 +9,8 @@
 // ============================================================================
 // TODO: Update this with your VanSightHub MAC address
 // You can find it in VanSightHub serial output on startup
-const uint8_t HUB_MAC_ADDRESS[6] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+const uint8_t HUB_MAC_ADDRESS[6] = {0x08, 0xB6, 0x1F, 0xBE, 0x12, 0x24};  // Hub AP MAC Address  // WiFi AP MAC
+// const uint8_t HUB_MAC_ADDRESS[6] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};  // Hub AP MAC Address  // WiFi AP MAC
 
 // ============================================================================
 // Relay to Button Mapping
@@ -60,6 +61,8 @@ enum SensorIndex {
 // ============================================================================
 const lv_color_t COLOR_BUTTON_ACTIVE = lv_color_hex(0xFFD700);   // Gold/Yellow
 const lv_color_t COLOR_BUTTON_INACTIVE = lv_color_hex(0x2E2E2E); // Dark gray
+const lv_color_t COLOR_CONNECTION_LOST = lv_color_hex(0x8073E6); // Dark gray
+const lv_color_t COLOR_CONNECTION_ACTIVE = lv_color_hex(0xFFD700); // Dark gray
 
 // ============================================================================
 // ESP-NOW Configuration

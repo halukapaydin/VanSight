@@ -55,20 +55,24 @@ const int MAX_ESPNOW_PAYLOAD = 250;
 
 // Broadcast address (for receiving from any device)
 // Set to your specific sender MAC address if needed
-uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
+static uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
 // ============================================================================
 // WiFi CONFIGURATION
 // ============================================================================
 // WiFi credentials (change these to your network)
-const char* WIFI_SSID = "VanSightHub";      // AP mode SSID
-const char* WIFI_PASSWORD = "12345678";      // AP mode password (min 8 chars)
+static const char* WIFI_SSID = "VanSightHub";      // AP mode SSID
+static const char* WIFI_PASSWORD = "12345678";      // AP mode password (min 8 chars)
 
 // Set to true for AP mode, false for STA mode
-const bool WIFI_AP_MODE = true;
+static const bool WIFI_AP_MODE = true;
 
 // If STA mode, set your router credentials here
-const char* WIFI_STA_SSID = "YourRouterSSID";
-const char* WIFI_STA_PASSWORD = "YourRouterPassword";
+static const char* WIFI_STA_SSID = "YourRouterSSID";
+static const char* WIFI_STA_PASSWORD = "YourRouterPassword";
+
+// const uint8_t HMI_MAC_ADDRESS[6] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};  // Hub AP MAC Address  // WiFi AP MAC
+const uint8_t HMI_MAC_ADDRESS[6] = {0x94, 0xA9, 0x90, 0x03, 0xDE, 0x24};  // Hub AP MAC Address  // WiFi AP MAC
+
 
 #endif // CONFIG_H

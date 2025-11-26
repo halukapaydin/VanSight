@@ -183,9 +183,12 @@ void ui_vanSightScreen_screen_init(void)
     lv_obj_set_flex_flow(ui_lblTitle, LV_FLEX_FLOW_ROW);
     lv_obj_set_flex_align(ui_lblTitle, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START, LV_FLEX_ALIGN_START);
     lv_label_set_text(ui_lblTitle, "AVAREYOLCULAR");
-    lv_obj_set_style_text_color(ui_lblTitle, lv_color_hex(0x19FC00), LV_PART_MAIN | LV_STATE_DEFAULT);
+    // Default color (gray) when not connected
+    lv_obj_set_style_text_color(ui_lblTitle, lv_color_hex(0x808080), LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui_lblTitle, 255, LV_PART_MAIN | LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui_lblTitle, &ui_font_rubikwetpaint, LV_PART_MAIN | LV_STATE_DEFAULT);
+    // Provide a helper to change color later
+    // (function defined below)
 
     ui_LevelContainer1 = lv_obj_create(ui_vanSightScreen);
     lv_obj_remove_style_all(ui_LevelContainer1);

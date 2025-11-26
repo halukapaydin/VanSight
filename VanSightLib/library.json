@@ -1,0 +1,33 @@
+{
+    "name": "VanSightLib",
+    "version": "1.0.0",
+    "description": "Shared library for VanSight IoT System - ESP-NOW communication and protocol handling",
+    "keywords": [
+        "esp32",
+        "esp-now",
+        "iot",
+        "communication",
+        "protocol"
+    ],
+    "authors": [
+        {
+            "name": "VanSight Team"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "bblanchon/ArduinoJson": "^7.2.1"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "export": {
+        "include": [
+            "src/*"
+        ]
+    }
+}

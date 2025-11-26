@@ -57,6 +57,7 @@ public:
      * @param state true if ON, false if OFF
      */
     void updateRelayButton(uint8_t relayNum, bool state);
+    void updateConnectionStatus(bool connected);
 
 private:
     UIStateManager();
