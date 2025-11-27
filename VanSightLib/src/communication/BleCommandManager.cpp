@@ -246,7 +246,7 @@ void BleCommandManager::sendRelayState(uint8_t relayNum, bool state)
     _ble->sendData((uint8_t*)buffer, len);
 }
 
-void BleCommandManager::sendAllStatus(const bool relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS])
+void BleCommandManager::sendAllStatus(const int relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS])
 {
     if (!_ble || _role != BleRole::SERVER) {
         return;

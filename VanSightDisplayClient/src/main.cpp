@@ -58,7 +58,7 @@ void loop()
                 Serial.println("[BLE] Status data received from Hub");
                 
                 // Create non-const copies for UIStateManager
-                bool relayStates[MAX_RELAYS];
+                int relayStates[MAX_RELAYS];
                 int sensorLevels[MAX_SENSORS];
                 
                 memcpy(relayStates, data.relayStates, sizeof(relayStates));

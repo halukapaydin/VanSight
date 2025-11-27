@@ -18,7 +18,7 @@ public:
      * @param pins Array of GPIO pins for relays
      * @param count Number of relays
      */
-    RelayController(const int* pins, uint8_t count);
+    RelayController(const int* pins, int count);
     
     /**
      * @brief Destroy the Relay Controller object
@@ -36,7 +36,7 @@ public:
      * @param relayNum Relay number (1-based index)
      * @return true if successful, false if invalid relay number
      */
-    bool turnOn(uint8_t relayNum);
+    bool turnOn(int relayNum);
     
     /**
      * @brief Turn off a specific relay
@@ -44,7 +44,7 @@ public:
      * @param relayNum Relay number (1-based index)
      * @return true if successful, false if invalid relay number
      */
-    bool turnOff(uint8_t relayNum);
+    bool turnOff(int relayNum);
     
     /**
      * @brief Toggle a specific relay
@@ -52,7 +52,7 @@ public:
      * @param relayNum Relay number (1-based index)
      * @return true if successful, false if invalid relay number
      */
-    bool toggle(uint8_t relayNum);
+    bool toggle(int relayNum);
     
     /**
      * @brief Get the state of a specific relay
@@ -60,7 +60,7 @@ public:
      * @param relayNum Relay number (1-based index)
      * @return true if ON, false if OFF or invalid relay number
      */
-    bool getState(uint8_t relayNum);
+    bool getState(int relayNum);
     
     /**
      * @brief Turn on all relays
@@ -75,13 +75,13 @@ public:
     /**
      * @brief Get the total number of relays
      * 
-     * @return uint8_t Number of relays
+     * @return uint Number of relays
      */
-    uint8_t getCount() const { return _count; }
+    uint getCount() const { return _count; }
 
 private:
     SimpleRelay** _relays;
-    uint8_t _count;
+    int _count;
     
     /**
      * @brief Validate relay number
@@ -89,7 +89,7 @@ private:
      * @param relayNum Relay number (1-based)
      * @return true if valid, false otherwise
      */
-    bool isValidRelayNum(uint8_t relayNum) const;
+    bool isValidRelayNum(int relayNum) const;
 };
 
 #endif // RELAY_CONTROLLER_H

@@ -43,7 +43,7 @@ public:
      * @brief Update all relay button states
      * @param relayStates Array of relay states (16 elements)
      */
-    void updateAllRelayStates(bool relayStates[]);
+    void updateAllRelayStates(int relayStates[]);
     
     /**
      * @brief Update all sensor levels

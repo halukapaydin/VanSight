@@ -6,6 +6,7 @@
 using namespace VanSight;
 
 // Relay button mapping (button index to relay number)
+// Using 1-based relay numbers (Relay 1-10)
 const uint8_t RELAY_MAP[] = {
     1,  // Home
     2,  // Left Chair
@@ -23,106 +24,66 @@ const uint8_t RELAY_MAP[] = {
 static unsigned long lastClickTime[10] = {0};
 const unsigned long DEBOUNCE_DELAY = 300; // 300ms debounce
 
-void onBtnHomeClick(lv_event_t * e)
-{
+// Helper function to handle relay toggle with debounce
+static void handleRelayToggle(uint8_t buttonIndex, const char* buttonName) {
     unsigned long now = millis();
-    if (now - lastClickTime[0] < DEBOUNCE_DELAY) {
+    if (now - lastClickTime[buttonIndex] < DEBOUNCE_DELAY) {
         return; // Ignore duplicate event
     }
-    lastClickTime[0] = now;
+    lastClickTime[buttonIndex] = now;
     
-    Serial.println("Home button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[0]);
+    Serial.printf("%s button clicked!\n", buttonName);
+    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[buttonIndex]);
+}
+
+void onBtnHomeClick(lv_event_t * e)
+{
+    handleRelayToggle(0, "Home");
 }
 
 void onBtnLeftChairClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[1] < DEBOUNCE_DELAY) return;
-    lastClickTime[1] = now;
-    
-    Serial.println("Left Chair button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[1]);
+    handleRelayToggle(1, "Left Chair");
 }
 
 void onBtnRightChairClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[2] < DEBOUNCE_DELAY) return;
-    lastClickTime[2] = now;
-    
-    Serial.println("Right Chair button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[2]);
+    handleRelayToggle(2, "Right Chair");
 }
 
 void onBtnKitchenClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[3] < DEBOUNCE_DELAY) return;
-    lastClickTime[3] = now;
-    
-    Serial.println("Kitchen button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[3]);
+    handleRelayToggle(3, "Kitchen");
 }
 
 void onBtnToiletClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[4] < DEBOUNCE_DELAY) return;
-    lastClickTime[4] = now;
-    
-    Serial.println("Toilet button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[4]);
+    handleRelayToggle(4, "Toilet");
 }
 
 void onBtnBathClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[5] < DEBOUNCE_DELAY) return;
-    lastClickTime[5] = now;
-    
-    Serial.println("Bath button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[5]);
+    handleRelayToggle(5, "Bath");
 }
 
 void onBtnBedClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[6] < DEBOUNCE_DELAY) return;
-    lastClickTime[6] = now;
-    
-    Serial.println("Bed button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[6]);
+    handleRelayToggle(6, "Bed");
 }
 
 void onBtnBalkonyUpClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[7] < DEBOUNCE_DELAY) return;
-    lastClickTime[7] = now;
-    
-    Serial.println("Balkony Up button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[7]);
+    handleRelayToggle(7, "Balkony Up");
 }
 
 void onBtnBalkonyDownClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[8] < DEBOUNCE_DELAY) return;
-    lastClickTime[8] = now;
-    
-    Serial.println("Balkony Down button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[8]);
+    handleRelayToggle(8, "Balkony Down");
 }
 
 void onBtnProjectorClick(lv_event_t * e)
 {
-    unsigned long now = millis();
-    if (now - lastClickTime[9] < DEBOUNCE_DELAY) return;
-    lastClickTime[9] = now;
-    
-    Serial.println("Projector button clicked!");
-    BleCommandManager::getInstance().toggleRelay(RELAY_MAP[9]);
+    handleRelayToggle(9, "Projector");
 }
 
 void onBtnReloadInformationClick(lv_event_t * e)

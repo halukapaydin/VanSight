@@ -17,7 +17,7 @@ public:
      * 
      * @param count Number of sensors
      */
-    SensorController(uint8_t count);
+    SensorController(int count);
     
     /**
      * @brief Destroy the Sensor Controller object
@@ -34,7 +34,7 @@ public:
      * @param referenceResistor Reference resistor value (default: 1000Ω)
      * @return true if successful, false if invalid index
      */
-    bool addSensor(uint8_t index, uint8_t pin, float minResistance, float maxResistance, float referenceResistor = 1000.0);
+    bool addSensor(int index, int pin, float minResistance, float maxResistance, float referenceResistor = 1000.0);
     
     /**
      * @brief Initialize all sensors
@@ -47,7 +47,7 @@ public:
      * @param sensorNum Sensor number (1-based index)
      * @return float Resistance in ohms, -1 if invalid sensor
      */
-    float readResistance(uint8_t sensorNum);
+    float readResistance(int sensorNum);
     
     /**
      * @brief Read level from a specific sensor
@@ -55,7 +55,7 @@ public:
      * @param sensorNum Sensor number (1-based index)
      * @return int Level percentage (0-100), -1 if invalid sensor
      */
-    int readLevel(uint8_t sensorNum);
+    int readLevel(int sensorNum);
     
     /**
      * @brief Read voltage from a specific sensor
@@ -63,7 +63,7 @@ public:
      * @param sensorNum Sensor number (1-based index)
      * @return float Voltage in volts, -1 if invalid sensor
      */
-    float readVoltage(uint8_t sensorNum);
+    float readVoltage(int sensorNum);
     
     /**
      * @brief Read raw ADC value from a specific sensor
@@ -71,18 +71,18 @@ public:
      * @param sensorNum Sensor number (1-based index)
      * @return int ADC value (0-4095), -1 if invalid sensor
      */
-    int readRaw(uint8_t sensorNum);
+    int readRaw(int sensorNum);
     
     /**
      * @brief Get the total number of sensors
      * 
-     * @return uint8_t Number of sensors
+     * @return int Number of sensors
      */
-    uint8_t getCount() const { return _count; }
+    int getCount() const { return _count; }
 
 private:
     LevelSensor** _sensors;
-    uint8_t _count;
+    int _count;
     
     /**
      * @brief Validate sensor number
@@ -90,7 +90,7 @@ private:
      * @param sensorNum Sensor number (1-based)
      * @return true if valid, false otherwise
      */
-    bool isValidSensorNum(uint8_t sensorNum) const;
+    bool isValidSensorNum(int sensorNum) const;
 };
 
 #endif // SENSOR_CONTROLLER_H

@@ -88,7 +88,7 @@ void setup()
 
 AllStatusData readAllStatus()
 {
-    AllStatusData data;
+    AllStatusData data{};
 
     // Get relay states
     for (int i = 0; i < VanSight::MAX_RELAYS; i++) {
@@ -97,7 +97,7 @@ AllStatusData readAllStatus()
 
     // Get sensor levels
     for (int i = 0; i < VanSight::MAX_SENSORS; i++) {
-        data.sensorLevels[i] = sensorController.readLevel(i);
+        data.sensorLevels[i] = sensorController.readLevel(i + 1);
     }
 
     return data;
@@ -120,7 +120,7 @@ void loop()
             
             // Read current sensor levels
             for (int i = 0; i < VanSight::MAX_SENSORS; i++) {
-                currentSensorLevels[i] = sensorController.readLevel(i);
+                currentSensorLevels[i] = sensorController.readLevel(i + 1);
                 
                 // Check if sensor value changed
                 if (currentSensorLevels[i] != lastSensorLevels[i]) {
@@ -135,7 +135,7 @@ void loop()
                 Serial.println("[Sensor] Sending sensor update to clients...");
                 
                 // Get current relay states
-                bool relayStates[VanSight::MAX_RELAYS];
+                int relayStates[VanSight::MAX_RELAYS];
                 for (int i = 0; i < VanSight::MAX_RELAYS; i++) {
                     relayStates[i] = relayController.getState(i + 1);
                 }

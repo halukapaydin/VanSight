@@ -164,7 +164,7 @@ void CommandManager::broadcastRelayState(uint8_t relayNum, bool state)
     _espnow->broadcastResponse(response);
 }
 
-void CommandManager::broadcastAllStatus(const bool relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS])
+void CommandManager::broadcastAllStatus(const int relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS])
 {
     if (!_espnow || _role != ESPNowRole::SERVER) {
         return;

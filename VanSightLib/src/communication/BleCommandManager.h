@@ -122,7 +122,7 @@ public:
     /**
      * @brief Send all status to client
      */
-    void sendAllStatus(const bool relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS]);
+    void sendAllStatus(const int relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS]);
 
 private:
     BleCommandManager();

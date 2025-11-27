@@ -66,7 +66,7 @@ private:
     bool _sleeping;
     bool _initialized;
     
-    static const unsigned long SLEEP_TIMEOUT_MS = 60000; // 60 seconds
+    static const unsigned long SLEEP_TIMEOUT_MS = 30000; // 60 seconds
     static const int PIN_LCD_BL = 2; // Backlight pin on IO Expander
 };
 

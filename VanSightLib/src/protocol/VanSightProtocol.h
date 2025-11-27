@@ -44,14 +44,14 @@ struct Response {
     union {
         struct {
             uint8_t relayNum;
-            bool state;
+            int state;
         } relay;
         struct {
             uint8_t sensorNum;
             int level;
         } sensor;
         struct {
-            bool relayStates[16];
+            int relayStates[16];
             int sensorLevels[3];
         } allStatus;
     } data;
@@ -81,7 +81,7 @@ inline CommandType stringToCommandType(const char* str) {
 
 // All Status Data Structure (used by CommandManager and BleCommandManager)
 struct AllStatusData {
-    bool relayStates[16];  // MAX_RELAYS
+    int relayStates[16];  // MAX_RELAYS
     int sensorLevels[3];   // MAX_SENSORS
 };
 

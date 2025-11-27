@@ -121,7 +121,7 @@ public:
     /**
      * @brief Broadcast all status to all clients
      */
-    void broadcastAllStatus(const bool relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS]);
+    void broadcastAllStatus(const int relayStates[MAX_RELAYS], const int sensorLevels[MAX_SENSORS]);
     
     /**
      * @brief Get number of connected clients (Server mode)

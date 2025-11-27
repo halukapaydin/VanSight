@@ -59,7 +59,7 @@ void UIStateManager::updateSensorLevel(lv_obj_t* barObj, lv_obj_t* labelObj, int
     Serial.printf("[UI] Sensor updated: %d%%\n", level);
 }
 
-void UIStateManager::updateAllRelayStates(bool relayStates[]) {
+void UIStateManager::updateAllRelayStates(int relayStates[]) {
     if (!_initialized) {
         return;
     }
