@@ -27,7 +27,7 @@ void onBleClientStateChange(BleClientState state)
     // Ensure this is also safe or deferred if it touches UI. 
     // For now, assuming updateConnectionStatus is safe or we might need to queue this too.
     // However, the main deadlock is usually data reception.
-    UIStateManager::getInstance().updateConnectionStatus(state == BleClientState::BLE_CONNECTED);
+    UIStateManager::getInstance().updateConnectionStatus(state);
     Serial.print("Ble client state : ");
     Serial.println(state);
 }

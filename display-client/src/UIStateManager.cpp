@@ -93,13 +93,32 @@ void UIStateManager::updateRelayButton(uint8_t relayNum, bool state) {
         Serial.printf("[UI] Relay %d button: %s\n", relayNum, state ? "ACTIVE" : "INACTIVE");
     }
 }
-void UIStateManager::updateConnectionStatus(bool connected)
+void UIStateManager::updateConnectionStatus(BleClientState ble_connection_state)
 {
     if (_lockFunc) _lockFunc(-1);
 
+    bool connected = ble_connection_state == BLE_CONNECTED;
+
     lv_color_t color = connected ? COLOR_CONNECTION_ACTIVE : COLOR_CONNECTION_LOST;
     lv_obj_set_style_text_color(ui_lblTitle, color, LV_PART_MAIN | LV_STATE_DEFAULT);
-    // lv_obj_set_style_bg_opa(ui_lblTitle, 255, LV_PART_MAIN | LV_STATE_DEFAULT); // Ensure opacity is set
+
+    switch (ble_connection_state)
+    {
+        case BLE_CONNECTED:
+            lv_label_set_text(ui_lblTitle, "AVAREYOLCULAR");
+        break;
+        case BLE_CONNECTING:
+            lv_label_set_text(ui_lblTitle, "BLE_CONNECTING");
+        break;
+        case BLE_DISCONNECTED:
+            lv_label_set_text(ui_lblTitle, "BLE_DISCONNECTED");
+        break;
+        case BLE_SCANNING:
+            lv_label_set_text(ui_lblTitle, "BLE_SCANNING");
+        break;
+        default:
+            lv_label_set_text(ui_lblTitle, "AVAREYOLCULAR");
+    }
 
     if (_unlockFunc) _unlockFunc();
 }

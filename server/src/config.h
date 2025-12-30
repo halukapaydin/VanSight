@@ -17,4 +17,6 @@ const char* WIFI_PASS = "password123";
 #define SDA_PIN 21
 #define SCL_PIN 22
 
+#define IR_PIN 27
+
 #endif // CONFIG_H

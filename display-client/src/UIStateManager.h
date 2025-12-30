@@ -5,6 +5,8 @@
 #include <lvgl.h>
 #include <ui.h>
 
+#include "ble/BleClientManager.h"
+
 /**
  * @brief UI State Manager for thread-safe LVGL updates
  * 
@@ -57,7 +59,8 @@ public:
      * @param state true if ON, false if OFF
      */
     void updateRelayButton(uint8_t relayNum, bool state);
-    void updateConnectionStatus(bool connected);
+
+    void updateConnectionStatus(BleClientState ble_connection_state);
 
 private:
     UIStateManager();

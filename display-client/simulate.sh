@@ -1,3 +1,3 @@
 !#/bin/bash
-bash ../VanSightDisplaySimulator/build.sh clean
-bash ../VanSightDisplaySimulator/run.sh
+bash ../display-client-simulator/build.sh clean
+bash ../display-client-simulator/run.sh
