@@ -3,3 +3,8 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+/.idea/.gitignore
+/.idea/editor.xml
+/.idea/modules.xml
+/.idea/VanSight.iml
+/.idea/vcs.xml
