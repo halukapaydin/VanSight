@@ -1,0 +1,16 @@
+{
+  "codename": "FaRegular",
+  "ttf_path": "/assets/fonts/fa-regular-400.ttf",
+  "bin_path": "/assets/fonts/ui_font_FaRegular.bin",
+  "c_path": "/assets/fonts/ui_font_FaRegular.c",
+  "cfg_path": "/assets/fonts/ui_font_FaRegular.fcfg",
+  "size": 24,
+  "bpp": 1,
+  "letters": 0,
+  "ranges": [
+    "0xF000-0xF8FF"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

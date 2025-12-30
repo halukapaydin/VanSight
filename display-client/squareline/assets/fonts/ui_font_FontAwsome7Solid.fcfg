@@ -1,0 +1,16 @@
+{
+  "codename": "FontAwsome7Solid",
+  "ttf_path": "/assets/fonts/Font Awesome 7 Free-Solid-900.otf",
+  "bin_path": "/assets/fonts/ui_font_FontAwsome7Solid.bin",
+  "c_path": "/assets/fonts/ui_font_FontAwsome7Solid.c",
+  "cfg_path": "/assets/fonts/ui_font_FontAwsome7Solid.fcfg",
+  "size": 36,
+  "bpp": 1,
+  "letters": 0,
+  "ranges": [
+    "0x0021-0x1FAC1"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

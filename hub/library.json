@@ -1,0 +1,30 @@
+{
+    "name": "hub",
+    "version": "1.0.0",
+    "description": "VanSight IoT System - Hub",
+    "keywords": [
+        "arduino",
+        "iot",
+        "communication",
+        "protocol",
+        "buzzer"
+    ],
+    "authors": [
+        {
+            "name": "VanSight Team"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT",
+    "homepage": "",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "export": {
+        "include": [
+            "src/*"
+        ]
+    }
+}
